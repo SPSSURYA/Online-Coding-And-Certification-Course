@@ -1,0 +1,14 @@
+Python Program to remove duplicate elements from a list 
+lst = []
+n = int(input("Enter number of elements : ")) 
+for i in range(0, n): 
+    ele = int(input()) 
+    lst.append(ele) 
+dup_items = set()
+uniq_items = []
+for x in lst:
+    if x not in dup_items:
+        uniq_items.append(x)
+        dup_items.add(x)
+
+print(dup_items)

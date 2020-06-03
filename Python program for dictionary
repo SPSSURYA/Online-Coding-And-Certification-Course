@@ -1,0 +1,16 @@
+Python Program to Map Two Lists into a Dictionary
+
+CODE:
+n=int(input("enter n value"))
+k=[]
+v=[]
+print("enter values")
+for i in range(0,n):
+  e=(input())
+  v.append(e)
+   print("enter keys")
+   for i in range(0,n):
+  e=(input())
+         k.append(e)
+   m=dict(zip(k,v))
+   print(m)

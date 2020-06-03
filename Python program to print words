@@ -1,0 +1,7 @@
+Python Program to Accept a Hyphen Separated Sequence of Words as Input and Print the Words in a Hyphen-Separated Sequence after Sorting them Alphabetically 
+
+CODE:
+n = input("Enter The Hyphen Separated Sequence Of Words: ")
+a = n.split('-')
+a.sort()
+print('-'.join(a))

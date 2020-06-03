@@ -1,0 +1,12 @@
+Python Program to Find the Largest Number in a List without using sorting algorithm
+
+CODE:
+l=[]
+n=int(input("enter n value"))
+print("enter list element")
+for i in range(0,n):
+  e=int(input())
+  l.append(e)
+print("original list: ",l)
+a=max(l)
+print("Largest element in list :" , a)

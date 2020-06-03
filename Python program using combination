@@ -1,0 +1,15 @@
+Python Program to find different digits r from number n using combination 
+
+CODE
+from itertools import combinations 
+c=[]
+n=int(input("enter n value"))
+print("enter list element")
+   for i in range(0,n):
+    e=int(input())
+    c.append(e)
+   print("original list: ",c)
+   r=int(input("enter r value"))
+   c = combinations(c, r) 
+      for i in list(c): 
+   print(i) 

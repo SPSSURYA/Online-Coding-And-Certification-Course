@@ -1,0 +1,15 @@
+Python Program to Find the different digits r from numbers n using permutstions
+
+from itertools import permutations 
+perm=[]
+n=int(input("enter n value"))
+print("enter list element")
+for i in range(0,n):
+  e=int(input())
+  perm.append(e)
+print("original list: ",l)
+r=int(input("enter r value"))
+perm = permutations(perm, r) 
+
+for i in list(perm): 
+    print(i) 

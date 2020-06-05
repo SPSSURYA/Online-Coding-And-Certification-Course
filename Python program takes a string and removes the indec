@@ -1,0 +1,6 @@
+The program takes a string and removes the nth index character from the non-empty string.
+
+CODE :
+s = input("Enter The String: ")
+n = int(input("Enter Index Position(Starts from 0) To Remove Character: "))
+print("The Final String: ", s[:n] + s[n+1:])

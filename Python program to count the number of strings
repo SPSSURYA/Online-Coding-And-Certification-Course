@@ -1,0 +1,19 @@
+Write a Python program to count the number of strings, provided string length is 2 or more and the first and last character are same from a given list of strings.
+
+CODE :
+def match_words(words):
+  ctr = 0
+
+  for word in words:
+    if len(word) > 1 and word[0] == word[-1]:
+      ctr += 1
+  return ctr
+l=[]
+n=int(input("enter n value\n"))
+print("list contents\n")
+for i in range (0,n):
+  e=input()
+  l.append(e)
+print("list: ",l)
+print("output\n")
+print(match_words(l))

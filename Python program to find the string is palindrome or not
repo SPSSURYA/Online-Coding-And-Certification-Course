@@ -1,0 +1,11 @@
+Write a python function that will take a string and checks whether it is a palindrome or not. Return If it a palindrome, print true else print false.
+
+CODE :
+def isPal(s):
+    return s == s[::-1]
+s = input("Enter The String: ").lower()
+t = isPal(s)
+if t:
+    print("True")
+else:
+    print("False")

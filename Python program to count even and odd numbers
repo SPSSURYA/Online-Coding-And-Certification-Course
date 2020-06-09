@@ -1,0 +1,10 @@
+Python Program to count even and odd numbers.
+
+CODE :
+n = int(input("Enter The Number Of Elements: "))
+c = 0
+print("Enter The Elements: ")
+for i in range(n):
+    if int(input()) % 2 == 0:
+        c += 1
+print("Number Of Even Numbers:", c, "\nNumber Of Odd Numbers:", n-c)

@@ -25,6 +25,6 @@ num = int(input("Enter an integer number: "))
 
 
 if isFibonacciNumber(num):
-    print ("Yes,", num, "is a Fibonacci number")
+    print ( num, "is a Fibonacci number")
 else:
-    print ("No,", num, "is not a Fibonacci number")
+    print ("No, num, "is not a Fibonacci number")

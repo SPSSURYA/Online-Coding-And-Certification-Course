@@ -1,0 +1,12 @@
+Python Program to find the average of all Items in a Dictionary Step1: Get the name as key and marks as value for n students Step2: find the average of the marks of all the students and print it
+
+CODE :
+d = dict()
+n = int(input("Enter the number of students : "))
+for i in range(n):
+    name = input("Enter the name : ")
+    d[name] = int(input("Enter the marks : "))
+s = 0
+for i in d.values():
+    s = s + i
+print(" Average of marks : ", s//n)

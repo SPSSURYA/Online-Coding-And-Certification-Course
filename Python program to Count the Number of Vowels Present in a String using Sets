@@ -1,0 +1,11 @@
+Python program to Count the Number of Vowels Present in a String using Sets Step1: Get a string Step2: find the no of occurrence of all vowels in the string using data structure set
+
+
+CODE :
+string=input("Enter string:")
+vowels=0
+for i in string:
+      if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u' or i=='A' or i=='E' or i=='I' or i=='O' or i=='U'):
+            vowels=vowels+1
+print("Number of vowels are:")
+print(vowels)

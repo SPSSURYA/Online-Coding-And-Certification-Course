@@ -1,7 +1,7 @@
 Python Program to Take in a String and Replace Every Blank Space with Hyphen
 
 CODE :
-string=raw_input("Enter string:")
+string=raw_input("Enter the string:")
 string=string.replace(' ','-')
-print("Modified string:")
+print("The output string is :")
 print(string)

@@ -7,6 +7,6 @@ def modify(string):
     if i % 2 == 0:  
       final = final + string[i]  
   return final
-string=raw_input("Enter string:")
-print("Modified string is:")
+string=raw_input("Enter  the string:")
+print("The output string is:")
 print(modify(string))

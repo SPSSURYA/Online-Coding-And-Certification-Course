@@ -1,0 +1,19 @@
+Python Program to Take in Two Strings and Display the Larger String without Using Built-in Functions
+
+CODE :
+string1=input("Enter the first string:")
+string2=input("Enter the second string:")
+count1=0
+count2=0
+for i in string1:
+      count1=count1+1
+for j in string2:
+      count2=count2+1
+if(count1<count2):
+      print("The Largest string is:")
+      print(string2)
+elif(count1==count2):
+      print("Both strings are equal.")
+else:
+      print("The Largest string is:")
+      print(string1)

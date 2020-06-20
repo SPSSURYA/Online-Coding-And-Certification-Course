@@ -1,0 +1,22 @@
+Python Program that Reads a Text File and Counts the Number of Times a Certain Letter Appears in the Text File
+
+CODE :
+fname = input("Enter thefile name: ")
+l=input("Enter the letter to be searched:")
+k = 0
+ 
+with open(fname, 'r') as f:
+    for line in f:
+        words = line.split()
+        for i in words:
+            for letter in i:
+                if(letter==l):
+                    k=k+1
+print("The Total occurrences of the searched letter is:")
+print(k)
+
+sps.txt
+Welcome
+hi hello
+this is python coding
+all the best

@@ -1,0 +1,12 @@
+Python Program to Read the Contents of a File in Reverse Order
+
+CODE :
+filename=input("Enter the file name: ")
+for line in reversed(list(open(filename))):
+    print(line.rstrip())
+    
+sps.txt
+Welcome
+hi hello 
+reversing the string program
+python

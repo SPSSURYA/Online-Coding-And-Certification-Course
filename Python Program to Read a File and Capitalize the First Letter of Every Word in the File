@@ -1,0 +1,15 @@
+Python Program to Read a File and Capitalize the First Letter of Every Word in the File
+
+CODE :
+fname = input("Enter file name: ")
+ 
+with open(fname, 'r') as f:
+    for line in f:
+        l=line.title()
+        print(l)
+        
+sps.txt
+Welcome
+hi hello
+this is python coding
+captilazing the first word

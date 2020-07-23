@@ -1,0 +1,18 @@
+Python Program for Find minimum sum of factors of number
+
+CODE :
+
+def findMinSum(num):
+   sum_ = 0
+   
+   i = 2
+   while(i * i <= num):
+      while(num % i == 0):
+         sum_ += i
+         num /= i
+      i += 1
+   sum_ += num
+   return sum_
+
+num = 12
+print (findMinSum(num))

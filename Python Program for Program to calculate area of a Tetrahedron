@@ -1,0 +1,22 @@
+Python Program for Program to calculate area of a Tetrahedron
+
+CODE :
+
+import math 
+
+  
+
+def area_of_tetrahedron(side): 
+
+  
+
+    return (math.sqrt(3) * (side * side)) 
+
+  
+
+
+side = 3; 
+
+print("Area of Tetrahedron =",  
+
+    area_of_tetrahedron(side)); 

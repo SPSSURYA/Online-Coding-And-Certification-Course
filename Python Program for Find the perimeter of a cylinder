@@ -1,0 +1,18 @@
+Python Program for Find the perimeter of a cylinder
+
+CODE :
+
+def perimeter( diameter, height ) : 
+
+    return 2 * ( diameter + height )  
+
+  
+
+
+diameter = 5 ; 
+
+height = 10 ; 
+
+print ("Perimeter = ", 
+
+            perimeter(diameter, height))

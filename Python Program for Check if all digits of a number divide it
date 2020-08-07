@@ -1,0 +1,15 @@
+Python Program for Check if all digits of a number divide it
+
+CODE :
+
+n=int(input())
+flag=1
+for i in str(n):
+   if int(i)!=0 and n%int(i)==0:
+      flag=1
+   else:
+      flag=0
+if(flag==1):
+   print("Yes")
+else:
+   print("No")

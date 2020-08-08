@@ -1,0 +1,21 @@
+Python program to convert float decimal to Octal number
+
+CODE :
+
+def float_convert_octal(my_number, places = 3):
+   my_whole, my_dec = str(my_number).split(".")
+   my_whole = int(my_whole)
+   my_dec = int (my_dec)
+   res = oct(my_whole).lstrip("0o") + "."
+   for x in range(places):
+      my_whole, my_dec = str((decimal_converter(my_dec)) * 8).split(".")
+      my_dec = int(my_dec)
+      res += my_whole
+   return res
+def decimal_converter(num):
+   while num > 1:
+      num /= 10
+   return num
+n = input("Enter the floating point value : \n")
+p = int(input("Enter the number of decimal places of the result : \n"))
+print(float_convert_octal(n, places = p))

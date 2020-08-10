@@ -1,0 +1,22 @@
+Check whether a number has consecutive 0’s in the given base or not
+
+CODE :
+
+def floatoctal_convert(my_number, places = 3):
+   my_whole, my_dec = str(my_number).split(".")
+   my_whole = int(my_whole)
+   my_dec = int (my_dec)
+   res = bin(my_whole).lstrip("0b") + "."
+   for x in range(places):
+      my_whole, my_dec = str((my_decimal_converter(my_dec)) * 8).split(".")
+      my_dec = int(my_dec)
+      res += my_whole
+   return res
+def my_decimal_converter(num):
+   while num > 1:
+      num /= 10
+   return num
+
+n = input("Enter floating point value : \n")
+p = int(input("Enter the number of decimal places of the result : \n"))
+print(floatoctal_convert(n, places = p))
